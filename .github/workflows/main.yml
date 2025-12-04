@@ -6,9 +6,6 @@ on:
   pull_request:
   workflow_dispatch:
 
-jobs:
-  zap-scan:
-    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
